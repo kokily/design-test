@@ -1,6 +1,7 @@
 import React from 'react';
 import styled, { css } from 'styled-components';
 import oc from 'open-color';
+import PageTemplate from '../components/PageTemplate';
 
 interface ButtonProps {
   red?: boolean;
@@ -10,15 +11,20 @@ interface ButtonProps {
 
 function IndexPage() {
   return (
-    <IndexBox>
-      <h2>Design test</h2>
+    <PageTemplate>
+      <IndexBox>
+        <h2>Design test</h2>
 
-      <BoxContainer>
-        <Box red />
-        <Box blue />
-        <Box cyan />
-      </BoxContainer>
-    </IndexBox>
+        <BoxContainer>
+          <Box red />
+          <Box blue />
+          <Box cyan />
+          <Box red />
+          <Box blue />
+          <Box cyan />
+        </BoxContainer>
+      </IndexBox>
+    </PageTemplate>
   );
 }
 
@@ -34,6 +40,7 @@ const IndexBox = styled.div`
 
 const BoxContainer = styled.div`
   display: flex;
+  flex-direction: column;
 `;
 
 const Box = styled.div<ButtonProps>`
