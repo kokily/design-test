@@ -54,28 +54,28 @@ function FooterContent() {
           <ul className="list list-icons list-icons-sm mb-0">
             <li>
               <i className="fas fa-angle-right top-8" />
-              <a href="/community/question" className="link-hover-style-1">
+              <a href="/" className="link-hover-style-1">
                 교육문의
               </a>
             </li>
 
             <li>
               <i className="fas fa-angle-right top-8" />
-              <a href="/education" className="link-hover-style-1">
+              <a href="/" className="link-hover-style-1">
                 교육 프로그램
               </a>
             </li>
 
             <li>
               <i className="fas fa-angle-right top-8" />
-              <a href="/online" className="link-hover-style-1">
+              <a href="/" className="link-hover-style-1">
                 온라인 프로그램
               </a>
             </li>
 
             <li>
               <i className="fas fa-angle-right top-8" />
-              <a href="/stories" className="link-hover-style-1">
+              <a href="/" className="link-hover-style-1">
                 The Y 이야기
               </a>
             </li>
