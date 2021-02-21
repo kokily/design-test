@@ -1,3 +1,3 @@
 module.exports = {
-  traillingSlash: true,
+  target: 'serverless',
 };
