@@ -1,7 +1,13 @@
 import React from 'react';
+import About from '../../components/about/About';
+import PageTemplate from '../../components/common/PageTemplate';
 
 function AboutPage() {
-  return <div>AboutPage</div>;
+  return (
+    <PageTemplate>
+      <About />
+    </PageTemplate>
+  );
 }
 
 export default AboutPage;
