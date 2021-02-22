@@ -2,10 +2,10 @@ const NavMenu = [
   {
     id: 0,
     title: '회사소개',
-    url: '/',
+    url: '/about',
     items: [
-      { id: 0, subTitle: 'Why The Y', subUrl: '/' },
-      { id: 1, subTitle: '오시는 길', subUrl: '/' },
+      { id: 0, subTitle: 'Why The Y', subUrl: '/about' },
+      { id: 1, subTitle: '오시는 길', subUrl: '/about/locate' },
     ],
   },
   {

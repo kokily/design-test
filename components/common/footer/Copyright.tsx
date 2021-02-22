@@ -27,7 +27,7 @@ function Copyright() {
                 </li>
                 <li>
                   <i className="fas fa-angle-right" />
-                  <a href="/" className="ml-1 text-decoration-none">
+                  <a href="/sitemap" className="ml-1 text-decoration-none">
                     {' '}
                     Sitemap
                   </a>

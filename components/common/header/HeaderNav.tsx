@@ -1,11 +1,6 @@
 import React from 'react';
-import NavMenu from './NavMenu';
-
-interface MenuProps {
-  title: string;
-  url: string;
-  items?: { id?: number; subTitle?: string; subUrl?: string }[];
-}
+import NavMenu from '../../../libs/NavMenu';
+import { MenuProps } from '../../../libs/types';
 
 function NavItem({ title, url, items }: MenuProps) {
   return (

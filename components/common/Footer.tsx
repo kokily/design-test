@@ -4,7 +4,7 @@ import Copyright from './footer/Copyright';
 
 function Footer() {
   return (
-    <footer id="footer">
+    <footer id="footer" className="mt-0">
       <FooterContent />
       <Copyright />
     </footer>

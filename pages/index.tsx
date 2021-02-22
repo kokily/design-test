@@ -1,11 +1,13 @@
 import React from 'react';
-import Carousel from '../components/home/Carousel';
 import PageTemplate from '../components/common/PageTemplate';
+import Carousel from '../components/home/Carousel';
+import MainLink from '../components/home/MainLink';
 
 function IndexPage() {
   return (
     <PageTemplate>
       <Carousel />
+      <MainLink />
     </PageTemplate>
   );
 }
