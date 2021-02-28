@@ -1,7 +1,11 @@
 import React from 'react';
 import styled from 'styled-components';
+import useMap from '../../../libs/useMap';
+import FooterMap from './FooterMap';
 
 function FooterContent() {
+  const kakaoMap = useMap();
+
   const ContactUs = (
     <div className="col-md-3 mb-4 mb-lg-0">
       <h5 className="text-3 mb-3 pb-1">Contact Us</h5>
@@ -18,7 +22,7 @@ function FooterContent() {
           <p className="m-0">thewhycompany@naver.com</p>
         </li>
       </ul>
-      <ul className="footer-social-icons social-icons mt-4">
+      <ul className="footer-social-icons social-icons mt-4" style={{ transition: '0.3s all' }}>
         <li className="social-icons-youtube mr-1">
           <a href="/">
             <i className="fab fa-youtube text-2" />
@@ -34,7 +38,7 @@ function FooterContent() {
   );
 
   const PageInfos = (
-    <div className="col-md-9 mb-4 mb-lg-0">
+    <div className="col-md-6 mb-4 mb-lg-0">
       <h5 className="text-3 mb-1">회사소개</h5>
       <p className="mt-2 mb-2">
         더와이컴퍼니는 행복한 삶을 꿈꾸는 &quot;커뮤니케이션&quot; 전문 교육 컨설팅 회사입니다.
@@ -85,6 +89,13 @@ function FooterContent() {
     </div>
   );
 
+  const Map = (
+    <div className="col-md-3 mb-4 mb-lg-0">
+      <h5 className="text-3 mb-1">오시는 길</h5>
+      <FooterMap ref={kakaoMap} />
+    </div>
+  );
+
   return (
     <div className="container">
       <div className="footer-ribbon">
@@ -94,6 +105,7 @@ function FooterContent() {
       <div className="row py-5 my-4">
         {ContactUs}
         {PageInfos}
+        {Map}
       </div>
     </div>
   );

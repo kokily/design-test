@@ -20,7 +20,7 @@ function Copyright() {
               <ul>
                 <li>
                   <i className="fas fa-angle-right" />
-                  <a href="/" className="ml-1 text-decoration-none">
+                  <a href="/qna" className="ml-1 text-decoration-none">
                     {' '}
                     FAQ's
                   </a>
@@ -34,7 +34,7 @@ function Copyright() {
                 </li>
                 <li>
                   <i className="fas fa-angle-right" />
-                  <a href="/" className="ml-1 text-decoration-none">
+                  <a href="/about" className="ml-1 text-decoration-none">
                     {' '}
                     Contact Us
                   </a>

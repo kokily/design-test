@@ -25,20 +25,20 @@ const NavMenu = [
   {
     id: 2,
     title: '온라인 프로그램',
-    url: '/',
+    url: '/online',
   },
   {
     id: 3,
     title: 'The Y 이야기',
-    url: '/',
+    url: '/stories',
   },
   {
     id: 4,
     title: '커뮤니티',
-    url: '/',
+    url: '/notice',
     items: [
-      { id: 0, subTitle: '공지사항', subUrl: '/' },
-      { id: 1, subTitle: '교육문의', subUrl: '/' },
+      { id: 0, subTitle: '공지사항', subUrl: '/notice' },
+      { id: 1, subTitle: '교육문의', subUrl: '/qna' },
     ],
   },
 ];
