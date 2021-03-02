@@ -11,15 +11,15 @@ const NavMenu = [
   {
     id: 1,
     title: '교육 프로그램',
-    url: '/',
+    url: '/education',
     items: [
-      { id: 0, subTitle: '서비스 커뮤니케이션', subUrl: '/' },
-      { id: 1, subTitle: '비즈니스 커뮤니케이션', subUrl: '/' },
-      { id: 2, subTitle: '리더의 커뮤니케이션', subUrl: '/' },
-      { id: 3, subTitle: '커뮤니케이션 진단 프로그램', subUrl: '/' },
-      { id: 4, subTitle: '직무역량강화', subUrl: '/' },
-      { id: 5, subTitle: '성과관리 커뮤니케이션', subUrl: '/ ' },
-      { id: 6, subTitle: '맞춤형 교육', subUrl: '/' },
+      { id: 0, subTitle: '서비스 커뮤니케이션', subUrl: '/education/service' },
+      { id: 1, subTitle: '비즈니스 커뮤니케이션', subUrl: '/education/business' },
+      { id: 2, subTitle: '리더의 커뮤니케이션', subUrl: '/education/leader' },
+      { id: 3, subTitle: '커뮤니케이션 진단 프로그램', subUrl: '/education/diagnosis' },
+      { id: 4, subTitle: '직무역량강화', subUrl: '/education/empowerment' },
+      { id: 5, subTitle: '성과관리 커뮤니케이션', subUrl: '/education/extended ' },
+      { id: 6, subTitle: '맞춤형 교육', subUrl: '/education/customized' },
     ],
   },
   {
